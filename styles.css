@@ -1,0 +1,184 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilos globales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    color: #0D0D0D;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2c2c;
+    padding: 20px 50px;
+}
+
+header .logo img {
+    width: 122px; /* Puedes ajustar el tamaño si es necesario */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #50AF82;
+}
+
+/* Sección Héroe */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #50AF82;
+    color: #FFFFFF;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero .btn {
+    padding: 15px 30px;
+    background-color: #0D0D0D;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #333;
+}
+
+/* Sección de Servicios */
+.services {
+    padding: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border: 2px solid #50AF82;
+    padding: 20px;
+    border-radius: 10px;
+    width: 22%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #0D0D0D;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #333;
+}
+
+/* Sección Sobre Nosotros */
+.about {
+    padding: 50px;
+    background-color: #F9F9F9;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.about img {
+    width: 10%;
+    border-radius: 10px;
+}
+
+/* Sección Testimonios */
+.testimonials {
+    padding: 50px;
+    background-color: #50AF82;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.testimonials-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.testimonial {
+    background-color: #FFFFFF;
+    color: #0D0D0D;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+/* Pie de página */
+footer {
+    background-color: #2e2c2c;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-icons {
+    margin-top: 20px;
+}
+
+footer .social-icons a {
+    color: #50AF82;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-icons a:hover {
+    color: #FFFFFF;
+}
